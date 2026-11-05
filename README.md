@@ -1,3 +1,28 @@
+ChefItUp is a Android recipe finder app which allows for users to discover, save, plan and cook based on their dietary preferences, available ingredients and skill level. 
+Purpose
+ChefItUp is to help users discover, save and plan meals. It helps reduce food waste as the cook with what you have feature gives users recipes based off of the food they have entered as the food they have. It simplifies meal planning as it has a weekly meal planner with an automated shopping list. It accommodates a lot of people as it supports multiple languages, has light and dark mode for different eye sensitivities and it also work offline. Its main features are: Register and Log in, Single Sign-On(SSO), Search and filtering, favourites, Weekly meal planner, shopping lists, Settings, Real time notifications, Multi-language support and offline mode. Its innovative features are: Cook with what I have, Gamification, Automated shopping list, South African language support, Offline mode with sync
+Design considerations
+The design follows a warm flow using a bold orange colour with a white/cream background which goes along with the flame in the logo. We used clear image focused recipe cards which show the meal, its cooking time and rating. It includes a five tab navigation panel at the bottom of the screen which buttons labelled :”Home”, “Search”, “Meal Plan”, “Saved” and “Profile” which flows throughout the whole app and every page. 
+ 
+
+Github and Github actions
+https://github.com/tshimoM/chefItUp
+We used one shared repository where every team member can view and add meaningful commits. 
+The pipeline runs automatically with every push and pull request to the main. The pipeline checks the code and sets us JDK 17, then gives permission to gradlew to execute and run unit tests suite then assembles a debug APK
+ <img width="723" height="1600" alt="WhatsApp Image 2026-11-05 at 17 05 51 (1)" src="https://github.com/user-attachments/assets/c865e887-c3d3-48e5-9596-69af24a386d4" />
+<img width="723" height="1600" alt="SSO" src="https://github.com/user-attachments/assets/ae8c7bf3-f0bd-4092-9555-98d7763a61e0" />
+<img width="1080" height="2388" alt="shoppinglist" src="https://github.com/user-attachments/assets/0a8e3f39-f920-4f6c-b13a-fd656ec4fdf3" />
+<img width="723" height="1600" alt="settings" src="https://github.com/user-attachments/assets/cbbbf174-2144-47a8-b2fd-703cfc6a7a4c" />
+<img width="1080" height="2388" alt="search2" src="https://github.com/user-attachments/assets/d45a9550-c1a1-4cb4-90b0-73e7ce8d73df" />
+<img width="723" height="1600" alt="search" src="https://github.com/user-attachments/assets/06283e9a-c67f-4903-8846-419948dd7884" />
+<img width="1080" height="2388" alt="savedpage" src="https://github.com/user-attachments/assets/d9dd9178-b237-4d40-8f8e-7824df6265c2" />
+<img width="723" height="1600" alt="registration" src="https://github.com/user-attachments/assets/7fe3d81e-15b0-4d71-924b-7d811983fefc" />
+<img width="723" height="1600" alt="profile" src="https://github.com/user-attachments/assets/5ea7a2f1-42de-4c2b-be35-054b4c36b1e8" />
+<img width="1080" height="2388" alt="mealplanner" src="https://github.com/user-attachments/assets/bed4a4be-bb62-40ea-a633-57037c5016f8" />
+<img width="723" height="1600" alt="homepage" src="https://github.com/user-attachments/assets/fd10b65c-13a7-4ff3-b5d1-cd868d0dd110" />
+<img width="1080" height="2388" alt="cookwithwhatyouhave" src="https://github.com/user-attachments/assets/fa0294f3-ec4d-48d3-af1b-f8af1f98962a" />
+
+
 # Chef it Up (Android)
 
 Kotlin + Jetpack Compose recipe app for South African kitchens. Talks to the local **ChefItUp.Api** middle layer (Spoonacular keys stay off-device).
