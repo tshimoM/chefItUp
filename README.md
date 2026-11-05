@@ -22,6 +22,10 @@ The pipeline runs automatically with every push and pull request to the main. Th
 <img width="723" height="1600" alt="homepage" src="https://github.com/user-attachments/assets/fd10b65c-13a7-4ff3-b5d1-cd868d0dd110" />
 <img width="1080" height="2388" alt="cookwithwhatyouhave" src="https://github.com/user-attachments/assets/fa0294f3-ec4d-48d3-af1b-f8af1f98962a" />
 
+YouTube video Link
+https://youtu.be/KD_zKPh6Tbo?si=fIYGMzN87GvOgK7i
+
+
 
 # Chef it Up (Android)
 
